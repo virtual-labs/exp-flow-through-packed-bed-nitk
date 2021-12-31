@@ -1,1 +1,1 @@
-### Aim of the experiment
+<p style="text-align: justify;">To determine the effect of superficial mass velocity on pressure drop across the packed bed with liquid flow. Verify Erguns equation. Determine the effect of modified Reynolds number on modified friction factor.</p>

@@ -2,38 +2,77 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Pressure drop in packed bed ____________ with the increase in superficial velocity?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "decreases",
+        "b": "increases",
+        "c": "no effect of superficial velocity on pressure drop"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": ""
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": ""
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "For particle Reynolds number above 1000, for packed bed ______________ forces control?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "viscous",
+        "b": "inertial"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "Under highly turbulent conditions, the modified friction factor for packed bed  approaches a value of",
+      "answers": {
+        "a": "1",
+        "b": "1.25",
+        "c": "1.75"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": ""
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": ""
+    },
+    {
+      "question": "Kozeny Carman equation is valid for ________ flow conditions in packedbed",
+      "answers": {
+        "a": "laminar",
+        "b": "turbulent",
+        "c": "both laminar and turbulent"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "Stokes' law is valid (strictly theoretically) when particle Reynolds number is NRe,p is",
+      "answers": {
+        "a": "much greater than one",
+        "b": "equal to one",
+        "c": "much less than ones"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
     }
   ]
 }
