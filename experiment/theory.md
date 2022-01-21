@@ -10,7 +10,7 @@ transfer and for chemical reactions.
 <p style="text-indent: 30px; text-align: justify;">
 Packed bed column is a cylindrical column packed with certain packing
 material. The packing can be randomly filled with small objects like Raschig rings
-or else it can be a specifically designed structured packing . Several chemical
+or else it can be a specifically designed structured packing. Several chemical
 engineering unit operations such as absorption, adsorption, distillation and
 extraction are carried out in packed columns. These packings enhance the surface
 area available for transfer operations. Packed columns are also used for
@@ -37,11 +37,11 @@ determining the energy loss, i.e. pressure drop, in packed beds are:
 <li>Closeness and orientation of packing</li>
 <li>Size shape and surface of the particles</li>
 </ol>
-	<p style="text-indent: 30px; text-align: justify;">
+
+<p style="text-indent: 30px; text-align: justify;">
 	The first two variables concern the fluid, while the last two the solids.
 	To calculate the pressure losses, we rely on a friction factor correlation
-	attributed to Ergun.
-	</p>
+	attributed to Ergun.</p>
 
 <p style="text-indent: 30px; text-align: justify;">
 The frictional force can be expressed in terms of a friction factor. This leads
@@ -63,25 +63,23 @@ diameter of the column as well. The maximum recommended particle diameter is
 one-fifth of the column diameter. We assume that velocity, particle diameter and
 void fraction behaves as a bulk behaviour and hence we can use an average values.
 The Ergun equation is</br>
-<center><img src="images/CodeCogsEqn (73).gif" style="width:177px;height:51px">
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------(1)</center></br></br>
+<center><img src="images/CodeCogsEqn (73).gif" style="width:177px;height:51px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------- (1)</center></br>
 f<sub>p</sub> is the friction factor for a packed bed called as modified friction factor.</br></br>
-Where<center><img src="images/CodeCogsEqn (74).gif" style="width:138px;height:45px">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ---------(2)</center></br>
+Where, <center><img src="images/CodeCogsEqn (74).gif" style="width:138px;height:45px">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --------- (2)</center></br>
 
-With <img src="images/CodeCogsEqn (75).gif" style="width:29px;height:12px"> = the pressure drop</b><br>
+Where,
 
-L= the height of the bed</b><br>
-<img src="images/CodeCogsEqn (47).gif" style="width:11px;height:12px">=the fluid viscosity</b><br>
-<img src="images/CodeCogsEqn (76).gif" style="width:7px;height:8px">=the fluid viscosity</b><br>
-V<sub>0</sub>= the fluid superficial velocity</b><br>
-D<sub>p</sub> =the particle diameter</b><br>
-<img src="images/CodeCogsEqn (46).gif" style="width:9px;height:12px">= the density of the fluid</b><br>
-<img src="../images/CodeCogsEqn (77).gif" style="width:18px;height:12px"> = sphericity of the particle.</b><br>
+<img src="images/CodeCogsEqn (75).gif" style="width:29px;height:12px"> = the pressure drop,<br>
+L= the height of the bed,<br>
+<img src="images/CodeCogsEqn (47).gif" style="width:11px;height:12px"> = the fluid viscosity,<br>
+<img src="images/CodeCogsEqn (76).gif" style="width:7px;height:8px"> = the fluid viscosity,<br>
+V<sub>0</sub> = the fluid superficial velocity,<br>
+D<sub>p</sub> =the particle diameter,<br>
+<img src="images/CodeCogsEqn (46).gif" style="width:9px;height:12px"> = the density of the fluid,<br>
+<img src="images/CodeCogsEqn (77).gif" style="width:18px;height:12px"> = sphericity of the particle.</b><br>
 
-Ergun equation was obtained by fitting the data for spheres, cylinders and crushed
+<p style="text-indent: 30px; text-align: justify;">Ergun equation was obtained by fitting the data for spheres, cylinders and crushed
 solids such as coke and sand. For Raschig rings and Berl saddles, which have
 porosities of 0.55 to 0.75, Ergun equation predicts pressure drops lower than those
 found experimentally. It also does not apply well to other tower packings of high
@@ -100,7 +98,7 @@ density.
 <p style="text-indent: 30px; text-align: justify;">
 At low Reynolds numbers, the quantity 1.75 of Eq.(1) is negligible in comparison
 with Reynolds number term. This implies that the viscous forces control and that
-inertial forces are unimportant. Then we have</br></br>
+inertial forces are unimportant. Then we have</br>
 <center><img src="images/CodeCogsEqn (78).gif" style="width:162px;height:46px"></center>
 
 </p>
@@ -111,9 +109,8 @@ drop is directly proportional to the flow rate.
 </p>
 <p style="text-indent: 30px; text-align: justify;">
 For large Reynolds numbers, above about 1000,the first term on the right hand side
-of Eq.(1) fades out as viscous forces become negligible and inertial forces control ,
-Then</p>
-
+of Eq.(1) fades out as viscous forces become negligible and inertial forces control,
+then</p>
 <center><img src="images/CodeCogsEqn (79).gif" style="width:153px;height:45px"></center>
 
 <p style="text-align: justify;">
@@ -125,7 +122,7 @@ equation, based on the study of single incompressible fluids through an
 incompressible bed of granular salts, is relatively similar to the structure of the
 Ergun equation.</p>
 
-Commonly used Tower packings</br></br>
+##### Commonly used Tower packings :
 <center><img  src= "images/ftpb1.gif" style="width:96px;height:78px"></br>
 Raschig rings</center></br>
 
