@@ -1,0 +1,80 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Superficial velocity is the ?",
+      "answers": {
+        "a": "velocity through the voids in packed bed",
+        "b": "empty tower velocity in packed bed",
+        "c": "velocity above the minimum fluidization velocity"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "Pressure drop across the packed bed is calculated using ?",
+      "answers": {
+        "a": "Ergun equation",
+        "b": "Newtons law",
+        "c": "Bernoullis principle"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "Ergun equation is valid for",
+      "answers": {
+        "a": "only laminar flow",
+        "b": "only turbulent flow",
+        "c": "for all types of flow"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "The value of sphericity  for spherical particles is",
+      "answers": {
+        "a": "0",
+        "b": "1",
+        "c": "0.3"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "Pressure drop across the packed bed is a ______________ function of superficial velocity  when NRep>1000.",
+      "answers": {
+        "a": "linear",
+        "b": "nonlinear",
+        "c": "may be linear or nonlinear depending on the velocity"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    }
+  ]
+}
